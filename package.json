@@ -1,0 +1,27 @@
+{
+  "name": "ThingsHiveEnterpriseWeChat_ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.4.20",
+    "crypto-js": "^4.1.1",
+    "js-base64": "2.5.2",
+    "luch-request": "^3.0.7",
+    "moment": "^2.29.4",
+    "qs": "^6.11.0",
+    "uni-read-pages": "^1.0.5",
+    "uni-simple-router": "2.0.7",
+    "uview-ui": "2.0.31",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "sass": "^1.54.0",
+    "sass-loader": "^10.3.1"
+  }
+}

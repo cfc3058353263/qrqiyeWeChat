@@ -1,0 +1,261 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+		"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/loading/index",
+			"name": "loading",
+			"style": {
+				"navigationBarTitleText": "奇瑞"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"name": "login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom" //去掉顶部导航栏 但是要主要由于所以顶部导航栏使用的是沉浸式会导致页面整体铺满
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"name": "index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/assets/index",
+			"name": "assets",
+			"style": {
+				"navigationBarTitleText": "消息中心",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"name": "user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/settings",
+			"name": "settings",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/visitor/index",
+			"name": "visitor",
+			"style": {
+				"navigationBarTitleText": "访客管理",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/visitor/details",
+			"name": "visitorDetails",
+			"style": {
+				"navigationBarTitleText": "查看详情",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/visitor/apply/index",
+			"name": "visitorApply",
+			"style": {
+				"navigationBarTitleText": "访客申请",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/visitor/apply/details",
+			"name": "visitorApplyDetails",
+			"style": {
+				"navigationBarTitleText": "查看详情",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/visitor/apply/make",
+			"name": "visitorApplyMake",
+			"style": {
+				"navigationBarTitleText": "预约新建",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/visitor/apply/qrCode",
+			"name": "visitorApplyQrCode",
+			"style": {
+				"navigationBarTitleText": "预约新建",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/visitor/apply/invitation",
+			"name": "visitorApplyInvitation",
+			"style": {
+				"navigationBarTitleText": "邀约新建",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		//免登录-访客邀约申请
+		{
+			"path": "pages/visitor/apply/register",
+			"name": "register",
+			"style": {
+				"navigationBarTitleText": "邀约新建",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/visitor/approval/index",
+			"name": "approval",
+			"style": {
+				"navigationBarTitleText": "访客审批",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/visitor/approval/details",
+			"name": "approvalDetails",
+			"style": {
+				"navigationBarTitleText": "查看详情",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/visitor/record/index",
+			"name": "record",
+			"style": {
+				"navigationBarTitleText": "访客记录",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/visitor/record/details",
+			"name": "recordDetails",
+			"style": {
+				"navigationBarTitleText": "查看详情",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/traffic/index",
+			"name": "traffic",
+			"style": {
+				"navigationBarTitleText": "交通保卫",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/traffic/longRange/index",
+			"name": "longRange",
+			"style": {
+				"navigationBarTitleText": "远程开门",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/traffic/vehicleRecord/index",
+			"name": "vehicleRecord",
+			"style": {
+				"navigationBarTitleText": "车辆记录",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/traffic/vehicleRecord/details",
+			"name": "vehicleRecordDetails",
+			"style": {
+				"navigationBarTitleText": "查看详情",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/traffic/accessControlRecords/index",
+			"name": "accessControlRecords",
+			"style": {
+				"navigationBarTitleText": "门禁记录",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/traffic/accessControlRecords/details",
+			"name": "accessControlRecordsDetails",
+			"style": {
+				"navigationBarTitleText": "查看详情",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/traffic/accessControlAuthority/index",
+			"name": "accessControlAuthority",
+			"style": {
+				"navigationBarTitleText": "门禁权限",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/notice/index",
+			"name": "notice",
+			"style": {
+				"navigationBarTitleText": "消息通知",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/manage/index",
+			"name": "manage",
+			"style": {
+				"navigationBarTitleText": "综合管理",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/epManage/index",
+			"name": "epManage",
+			"style": {
+				"navigationBarTitleText": "环保管理",
+				"navigationBarBackgroundColor": "white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "奇瑞",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#2C8AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/img/tabbar/homeF.png",
+			"selectedIconPath": "static/img/tabbar/homeT.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/assets/index",
+			"iconPath": "static/img/tabbar/newsF.png",
+			"selectedIconPath": "static/img/tabbar/newsT.png",
+			"text": "消息中心"
+		}, {
+			"pagePath": "pages/user/index",
+			"iconPath": "static/img/tabbar/userF.png",
+			"selectedIconPath": "static/img/tabbar/userT.png",
+			"text": "我的"
+		}]
+	},
+	"uniIdRouter": {}
+}
